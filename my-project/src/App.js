@@ -1,5 +1,6 @@
 import './App.css';
 import About from './components/About';
+import Experience from './components/Experience';
 import Header from './components/Header';
 import Home from './components/Home';
 import Projects from './components/Projects';
@@ -13,9 +14,7 @@ function App() {
       <About/>
       <Skills/>
       <Projects/>
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+      <Experience/>
     </div>
   );
 }

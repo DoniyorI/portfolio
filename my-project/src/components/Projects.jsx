@@ -1,5 +1,7 @@
 import React from 'react'
 import { Button } from "@material-tailwind/react";
+import { BsGithub} from 'react-icons/bs';
+
 
 
 const Projects = () => {
@@ -14,11 +16,13 @@ const Projects = () => {
             </p>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-2 px-52">
-            <div class="flex justify-center text-6xl border-2 border-gray-300 rounded-md p-6 bg-gray-100">1</div>
-            <div class="flex justify-center text-6xl border-2 border-gray-300 rounded-md p-6 bg-gray-100">2</div>
-            <div class="flex justify-center text-6xl border-2 border-gray-300 rounded-md p-6 bg-gray-100">3</div>
-            <div class="flex justify-center text-6xl border-2 border-gray-300 rounded-md p-6 bg-gray-100">4</div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 px-8 md:px-32 lg:px-52">
+            <div class="flex justify-center text-6xl border-2 border-gray-300 rounded-md py-32 bg-gray-100">1</div>
+            <div class="flex justify-center text-6xl border-2 border-gray-300 rounded-md py-32 bg-gray-100">2</div>
+            <div class="flex justify-center text-6xl border-2 border-gray-300 rounded-md py-32 bg-gray-100">3</div>
+            <div class="flex justify-center text-6xl border-2 border-gray-300 rounded-md py-32 bg-gray-100">4</div>
+            <div class="flex justify-center text-6xl border-2 border-gray-300 rounded-md py-32 bg-gray-100">5</div>
+            <div class="flex justify-center text-6xl border-2 border-gray-300 rounded-md py-32 bg-gray-100">6</div>
         </div>
 
         <div className='text-white'>
@@ -29,8 +33,11 @@ const Projects = () => {
                 To see more of my projects...
             </h1>
 
-            <Button className='bg-white hover:bg-gray-100 py-5 px-8 button rounded-md shadow-lg'>
-                Visit my Github 
+            <Button className='bg-white hover:bg-gray-100 py-5 px-8 button rounded-md shadow-lg font-Roboto font-bold'>
+                <a href="https://github.com/DoniyorI" className='text-xl'>
+                    <p className='inline'>Visit my Github</p>
+                    <BsGithub className='h-7 w-7 p-0.5 inline -translate-y-0.5'/>
+                </a>
             </Button>
         </div>
     </div>
