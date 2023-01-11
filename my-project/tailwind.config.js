@@ -40,6 +40,8 @@ module.exports = {
       'hero': "url('./assets/backgrounds/001.png')",
       'blue-wave':"url('./assets/backgrounds/Blue-Wave-bg.svg')",
       'orange-wave':"url('./assets/backgrounds/Blue-Wave-bg.svg')",
+      'world-map':"url('./assets/backgrounds/World-Map.svg')",
+
     },
   },
   plugins: [],

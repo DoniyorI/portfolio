@@ -9,7 +9,7 @@ import {MdWork,MdSchool} from 'react-icons/md';
 
 const Experience = () => {
   return (
-    <div className="object-center bg-black-pearl-500 experienceOrange bg-full bg-cover">
+    <div className="object-center bg-black-pearl-500 experienceOrange bg-full bg-cover pb-10">
       <h1 className="text-white text-center font-Roboto font-bold text-4xl">
         Experience
       </h1>
