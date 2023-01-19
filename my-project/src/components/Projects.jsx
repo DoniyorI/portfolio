@@ -1,14 +1,18 @@
 import React from 'react'
 import { Button } from "@material-tailwind/react";
 import { BsGithub} from 'react-icons/bs';
+import project1 from '../assets/project/Project_1.png'
+import project2 from '../assets/project/Project_2.png'
+import project3 from '../assets/project/Project_3.png'
+import project4 from '../assets/project/Project_4.png'
 
 
 
 const Projects = () => {
   return (
-    <div className='object-center bg-black-pearl-500 projectsBO pt-20 pb-52'>
+    <div className='text-center bg-black-pearl-500 projectsBO pt-20 pb-52'>
         <div className='text-white'>
-            <h1 className='text-3xl font-Roboto_Flex font-extrabold'>
+            <h1 className='text-3xl font-Roboto_Flex font-extrabold '>
                 Projects
             </h1>
             <p className='font-Roboto_Flex font-thin text-sm pt-3 pb-20'>
@@ -16,13 +20,28 @@ const Projects = () => {
             </p>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 px-8 md:px-32 lg:px-52">
-            <div class="flex justify-center text-6xl border-2 border-gray-300 rounded-md py-32 bg-gray-100">1</div>
-            <div class="flex justify-center text-6xl border-2 border-gray-300 rounded-md py-32 bg-gray-100">2</div>
-            <div class="flex justify-center text-6xl border-2 border-gray-300 rounded-md py-32 bg-gray-100">3</div>
-            <div class="flex justify-center text-6xl border-2 border-gray-300 rounded-md py-32 bg-gray-100">4</div>
-            <div class="flex justify-center text-6xl border-2 border-gray-300 rounded-md py-32 bg-gray-100">5</div>
-            <div class="flex justify-center text-6xl border-2 border-gray-300 rounded-md py-32 bg-gray-100">6</div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-2 px-8 md:px-32 lg:px-52">
+            <div class="flex justify-center text-6xl border-2 h-96 rounded-md p-2 bg-gray-100">
+                <img 
+                src = {project2}
+                />
+            </div>
+            <div class="flex justify-center text-6xl border-2 h-96 rounded-md  bg-gray-100">
+            <img
+                src = {project4}
+                />
+            </div>
+            <div class="flex justify-center text-6xl border-2 h-96 rounded-md  bg-gray-100">
+            <img 
+                src = {project1}
+                />
+            </div>
+            <div class="flex justify-center text-6xl border-2 h-96 rounded-md  bg-gray-100">
+            <img
+                src = {project3}
+                />
+            </div>
+            
         </div>
 
         <div className='text-white'>
