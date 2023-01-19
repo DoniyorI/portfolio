@@ -22,7 +22,7 @@ export default function Header() {
     <Disclosure as="nav" className="bg-black-pearl-500 ">
       {({ open }) => (
         <>
-          <div className="z-50 w-full fixed top-0 bg-black-pearl-500 shadow-xl max-w-7xl px-2 sm:px-6 lg:px-8">
+          <div className="fixed top-0 bg-black-pearl-500 shadow-xl z-50 w-full px-2 sm:px-6 lg:px-8">
             <div className="relative flex h-12 items-center justify-between">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/}

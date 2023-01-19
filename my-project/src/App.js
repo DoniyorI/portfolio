@@ -11,7 +11,7 @@ import Skills from './components/Skills';
 function App() {
   return (
     <div>
-      <Header className = ''/>
+      <Header/>
       <Home/>
       <About/>
       <Skills/>
