@@ -20,23 +20,23 @@ const Projects = () => {
             </p>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-2 px-8 md:px-32 lg:px-52">
-            <div class="flex justify-center text-6xl border-2 h-96 rounded-md p-2 bg-gray-100">
-                <img 
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-2 px-8 md:px-24 lg:px-52">
+            <div class="flex justify-center text-6xl border-2 w-full h-auto rounded-md p-2 bg-gray-100">
+                <img className='flex justify-center rounded-md'
                 src = {project2}
                 />
             </div>
-            <div class="flex justify-center text-6xl border-2 h-96 rounded-md  bg-gray-100">
+            <div class="flex justify-center text-6xl border-2 w-full h-auto rounded-md p-2 bg-gray-100">
             <img
                 src = {project4}
                 />
             </div>
-            <div class="flex justify-center text-6xl border-2 h-96 rounded-md  bg-gray-100">
+            <div class="flex justify-center text-6xl border-2 w-full h-auto rounded-md p-5 bg-gray-100">
             <img 
                 src = {project1}
                 />
             </div>
-            <div class="flex justify-center text-6xl border-2 h-96 rounded-md  bg-gray-100">
+            <div class="flex justify-center text-6xl border-2 w-full h-auto rounded-md p-5 bg-gray-100">
             <img
                 src = {project3}
                 />

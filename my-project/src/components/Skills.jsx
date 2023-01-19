@@ -18,7 +18,7 @@ const Skills = () => {
         <p className='text-white text-center font-Roboto font-light text-sm'>
             Below are some of my skills, and I'm always looking to learn more.
         </p>
-        <div className="items-start grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 md:px-32 lg:px-40 pt-14">
+        <div className="text-center items-start grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 px-12 md:px-32 lg:px-40 pt-14">
             <div className='grid grid-rows-2'>
                 <div className='flex justify-center'>
                     <img src={Python} alt="Python" className='drop-shadow-xl icon'/> 
