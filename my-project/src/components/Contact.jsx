@@ -45,7 +45,7 @@ export const Contact = () => {
               </p>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 grid-rows-3 gap-x-5 gap-y-5 px-8 md:px-20 lg:px-42">
+            <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 grid-rows-3 gap-x-5 gap-y-5 px-8 md:px-20 lg:px-42">
               <div className="relative text-left text-white">
                 <label for="name" className="leading-7 text-sm"></label>
                 <input

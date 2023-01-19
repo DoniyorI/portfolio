@@ -10,8 +10,8 @@ import Skills from './components/Skills';
 
 function App() {
   return (
-    <div className='App'>
-      <Header className = 'sticky top-0 w-full'/>
+    <div>
+      <Header className = ''/>
       <Home/>
       <About/>
       <Skills/>
