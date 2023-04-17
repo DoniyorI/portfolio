@@ -9,7 +9,7 @@ import { Button } from "@material-tailwind/react";
 const About = () => {
   return (
     
-    <div class="bg-porcelain-100 aboutH lg:pt-52 lg:px-20 lg:pb-96">
+    <div class="bg-porcelain-100 aboutH lg:pt-52 lg:px-20 lg:pb-96 md:px-20 md:pb-96" >
         <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-6">
 
             <div class="flex justify-center ">
