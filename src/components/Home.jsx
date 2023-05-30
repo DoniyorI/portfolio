@@ -2,7 +2,6 @@ import React from 'react'
 import photo from '../assets/slide_show/Photo_6.jpg'
 import { Button } from "@material-tailwind/react";
 
-
 const Home = () => {
   return (
     <section id = "#">
@@ -25,7 +24,6 @@ const Home = () => {
             </div>
         </div>
     </section>
-
   )
 }
 

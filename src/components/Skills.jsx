@@ -6,8 +6,6 @@ import Node from '../assets/skills/Node.js.png'
 import Scala from '../assets/skills/Scala.png'
 import Other from '../assets/skills/Other.png'
 
-
-
 const Skills = () => {
   return (
     <>

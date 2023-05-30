@@ -6,8 +6,6 @@ import project2 from '../assets/project/Project_2.png'
 import project3 from '../assets/project/Project_3.png'
 import project4 from '../assets/project/Project_4.png'
 
-
-
 const Projects = () => {
   return (
     <div className='text-center bg-black-pearl-500 projectsBO pt-20' id = "Project">
