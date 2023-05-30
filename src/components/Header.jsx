@@ -13,7 +13,7 @@ export default function Header() {
   return (
     <div className='header'>
             <nav className= "navbar font-Roboto">
-                <a href='/' className='logo'>
+                <a href='#' className='logo'>
                     <img src={logo} alt='logo'className=' h-16 w-16 ' />
                 </a>
                 <div className='hamburger' onClick={handleClick}>
