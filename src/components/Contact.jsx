@@ -26,7 +26,7 @@ export const Contact = () => {
   };
 
   return (
-    <div className="bg-world-map bg-no-repeat bg-cover bg-center">
+    <div className="bg-world-map bg-no-repeat bg-cover bg-center" id="Contact">
       <form ref={form} onSubmit={sendEmail}>
         <section className="text-gray-700 body-font relative">
           <div className="container  pt-20 pb-10 mx-auto">

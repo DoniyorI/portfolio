@@ -10,7 +10,7 @@ import project4 from '../assets/project/Project_4.png'
 
 const Projects = () => {
   return (
-    <div className='text-center bg-black-pearl-500 projectsBO pt-20 pb-52'>
+    <div className='text-center bg-black-pearl-500 projectsBO pt-20' id = "Project">
         <div className='text-white'>
             <h1 className='text-3xl font-Roboto_Flex font-extrabold '>
                 Projects

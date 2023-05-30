@@ -11,7 +11,7 @@ import Other from '../assets/skills/Other.png'
 const Skills = () => {
   return (
     <>
-    <div className='object-center  bg-black-pearl-500 skillBlue bg-full bg-cover pt-20'>
+    <div className='object-center  bg-black-pearl-500 skillBlue bg-full bg-cover pt-20' id="Skills">
         <h1 className='text-white text-center font-Roboto font-bold text-4xl'>
             Skills
         </h1>
@@ -28,9 +28,11 @@ const Skills = () => {
                         Python
                     </h1>
                     <p>
-                        Over the past 3 years, I've had extensive experience with Python in the course 
-                        of my research, classwork, and personal projects. Some of my projects in Python include my 
-                        _______ and _______</p>
+                    With 3+ years of experience, I have mastered Python through research, coursework, and personal projects. 
+                    Its versatility and robustness have allowed me to solve complex problems, develop efficient algorithms, and 
+                    build practical applications. Python's rich ecosystem of libraries and frameworks has been instrumental in turning 
+                    my ideas into reality.                    
+                    </p>
                 </div>
             </div>
             <div className='grid grid-rows-2'>
@@ -42,11 +44,10 @@ const Skills = () => {
                         Web Development
                     </h1>
                     <p className='text-white'>
-                        With a combined 4 years of experience from personal projects _______ often develop 
-                        full-stack applications, consisting of HTML/JavaScript/CSS, and various web libraries 
-                        like Bottle Routes. Also experience React with frameworks such as Bootstrap, Tailwind 
-                        CSS, and Django with backend using Typescript in the Winning Hackaton Project
-                    </p>
+                    With 4+ years of experience, I have developed full-stack web applications using HTML, JavaScript, CSS,
+                     and libraries like Bottle Routes. I'm proficient in React with frameworks like Bootstrap and Tailwind CSS. 
+                     Demonstrating my ability to adapt and leverage cutting-edge 
+                     technologies in real-world scenarios.                    </p>
                 </div>
             </div>
             <div className='grid grid-rows-2'>
@@ -56,11 +57,12 @@ const Skills = () => {
                 <div className='text-white'> 
                     <h1 className='text-2xl font-Roboto_Flex font-bold'>
                         C
-                    </h1>                    <p className='text-white'>
-                        I have over a year in programming in C. Projects include ______, _____ and ______ Using 
-                        C as the Primary language because of its efficiently working on enterprise applications, 
-                        games, graphics, and applications requiring calculations.
-                    </p>
+                    </h1>                    
+                    <p className='text-white'>
+                    With over a year of experience, I've delved into C programming, Dynamic Memory Allocator, a Conway's Game of 
+                    Life simulation, and a messaging server. My C programming journey has equipped me with a deep understanding 
+                    of low-level concepts and the ability to craft high-performance applications.                   
+                      </p>
                 </div>
             </div>
 
@@ -73,8 +75,9 @@ const Skills = () => {
                         Node.js
                     </h1>                    
                     <p className='text-white'>
-                    I have extensive experience in Node.js and many of its modules
-                    </p>
+                    Through my extensive experience in Node.js, I have gained proficiency in leveraging its powerful 
+                    ecosystem of modules and libraries. This expertise has enabled me to develop robust server-side applications, 
+                    implement efficient APIs, and effectively manage database interactions                    </p>
                 </div>
             </div>
             <div className='grid grid-rows-2'>
@@ -86,10 +89,7 @@ const Skills = () => {
                         Scala
                     </h1> 
                     <p className='text-white'>
-                    I've worked on many projects in Scala such as ______ and ______. Using Scala building 
-                    writing small scripts to building a massive system for data processing. And great for 
-                    Data processing, distributed computing, Such as Object Oriented programming such as the
-                     _____ Project.
+                    I have worked on various Scala projects, including the Abstract Genetic Algorithm and the Self Check Out Machine Project. Scala has been instrumental in data processing, distributed computing, and object-oriented programming. Its versatility has allowed me to build small scripts as well as large-scale systems.
                     </p>
                 </div>
             </div>

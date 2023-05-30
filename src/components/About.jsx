@@ -9,7 +9,7 @@ import { Button } from "@material-tailwind/react";
 const About = () => {
   return (
     
-    <div class="bg-porcelain-100 aboutH lg:pt-52 lg:px-20 lg:pb-96 md:px-20 md:pb-96" >
+    <div class="bg-porcelain-100 aboutH lg:pt-52 lg:px-20 lg:pb-96 md:px-20 md:pb-96 pt-24" id = "About" >
         <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-6">
 
             <div class="flex justify-center ">
@@ -51,17 +51,23 @@ const About = () => {
             <div class="lg:col-span-3 flex justify-center">
             <Button className='bg-white hover:bg-gray-100 py-2 px-3 md:px-9 mx-1 md:mx-3 button shadow-lg rounded-none'>
                 <div className='font-Roboto font-bold shadow-none text-lg lg:text-xl'>
-                    Skills
+                    <a href = "#Skills">
+                        Skills
+                    </a>
                 </div>
             </Button>
             <Button className='bg-white hover:bg-gray-100 py-2 px-3 md:px-6 mx-1 md:mx-3 button shadow-lg rounded-none'>
                 <div className='font-Roboto font-semibold shadow-none text-lg lg:text-xl'>
-                    Projects
+                    <a href = "#Project">
+                        Projects
+                    </a>
                 </div>
             </Button>
             <Button className=' bg-black-pearl-500 hover:bg-black-pearl-700 py-2 px-3 md:px-6 mx-1 md:mx-3 button shadow-lg text-white rounded-none'>
                 <div className='text-white font-semibold text-lg lg:text-xl'>
-                    Resume
+                    <a href = "https://publuu.com/flip-book/149121/373169">
+                        Resume
+                    </a>
                 </div>
             </Button>
 

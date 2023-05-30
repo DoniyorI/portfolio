@@ -13,14 +13,14 @@ const Footer = () => {
         </a>
         <ul class="flex flex-wrap items-center mb-2 text-sm text-gray-500 sm:mb-0 dark:text-gray-400">
             <li>
-                <a href="#" class="mr-4 hover:underline md:mr-6 ">About</a>
+                <a href="#About" class="mr-4 hover:underline md:mr-6 ">About</a>
             </li>
             <li >
-                <a href="#" class="mr-4 hover:underline md:mr-6 ">Contact</a>
+                <a href="#Contact" class="mr-4 hover:underline md:mr-6 ">Contact</a>
             </li>
             <li className='inline-flex'>
                 <img src={pdf} width={17} className="  pr-0.5"/>
-                <a href="#" class="hover:underline">Resume</a>
+                <a href="https://publuu.com/flip-book/149121/373169" class="hover:underline">Resume</a>
             </li>
         </ul>
     </div>
