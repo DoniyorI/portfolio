@@ -47,15 +47,20 @@
 }
 
 .profile {
-  margin-left: calc(50% - 100px);
-  margin-right: calc(50% - 100px);
-
+  margin-left: calc(50% - 125px);
+  margin-right: calc(50% - 125px);
   box-sizing: border-box;
   position: absolute;
   border: 5px solid #FFF9F9;
   border-radius:100%;
 }
+.profile2 {
+  padding-left: calc(50% - 187.5px);
+  padding-right: calc(50% - 187.5px);
 
+
+
+}
 .aboutH{
   padding-top: 120px;
   padding-bottom: 100px;

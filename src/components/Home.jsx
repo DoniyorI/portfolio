@@ -7,8 +7,8 @@ const Home = () => {
     <section id = "#">
         <div class="bg-hero bg-no-repeat bg-cover bg-center h-screen">
             <div className='margin'>
-                <img src = {photo} alt="profile" height={200} width={200} className='profile content-center rounded-full'/>
-                <div className='text font-Roboto_Flex font-bold text-center pt-52'>
+                <img src = {photo} alt="profile" height={250} width={250} className='profile rounded-full flex place-self-center'/>
+                <div className='text font-Roboto_Flex font-bold text-center pt-64'>
                     <h1>
                         Doniyor Ismatilloev
                     </h1>

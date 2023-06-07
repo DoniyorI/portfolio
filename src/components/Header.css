@@ -1,6 +1,6 @@
 .header {
     position: fixed;
-    height: 60px;
+    height: 70px;
     width: 100%;
     top: 0;
     left: 0;
@@ -66,7 +66,7 @@
     .nav-menu {
         position: fixed;
         left: -100%;
-        top: 90px;
+        top: 70px;
         flex-direction: column;
         background-color: rgba(0,0,0,.9);
         width: 100%;

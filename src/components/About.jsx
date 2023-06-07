@@ -9,27 +9,38 @@ import { Button } from "@material-tailwind/react";
 const About = () => {
   return (
     
-    <div class="bg-porcelain-100 aboutH lg:pt-52 lg:px-20 lg:pb-96 md:px-20 md:pb-96 pt-24" id = "About" >
+    <div class="bg-porcelain-100 aboutH lg:pt-52 px-10 lg:px-20 lg:pb-96 md:px-20 md:pb-96 pt-24" id = "About" >
         <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-6">
 
-            <div class="flex justify-center ">
-                <img src = {photo} alt="about" height={300} width={300} className='rounded-full border-solid border-8 border-black-pearl-500 '/>
+            <div class="content-center profile2">
+                <img src = {photo} alt="about" height={375} width={375} className='rounded-full border-solid border-8 border-black-pearl-500 '/>
             </div>
 
             <div class=" lg:col-span-2 p-6">
             <h1 className='text-left font-Roboto font-extrabold text-3xl pt-1'>Doniyor Ismatilloev</h1>
-                <p className='text-left font-Roboto font-light text-sm'>University At Buffalo ‘ 24, BS Computer Science</p>
+                <p className='text-left font-Roboto font-light text-sm'>University At Buffalo ‘ 24, BS Computer Science
+                </p>
+                
                 <br/>
+               
                 <p className ='text-left font-Roboto lg:pr-32'>
-                    I'm a undergraduate of University At Buffalo Class of 2024 and my passion is Computer Science. 
-                    My interests include software design and development, artificial intelligence, machine learning, 
-                    and Web Development.
+                I'm an undergraduate student pursuing a Bachelor's degree in Computer Science at the University at Buffalo, Class of 2024. My passion lies in software design, development, artificial intelligence, and machine learning. Through continuous learning and exploration, I strive to expand my skills and knowledge in these areas. 
                 </p>
                 <br/>
                 <p className ='text-left font-Roboto lg:pr-32'>
-                    I'm currently a Undergraduate student working towards my Bachelor’s degree in 
-                    BS Computer Science.
+                As a testament to my dedication, I have developed my own website where I showcase my projects and skills. This platform allows me to demonstrate my creativity, problem-solving abilities, and passion for technology.
                 </p>
+                <br/>
+                <p className ='text-left font-Roboto lg:pr-32'>
+                I am excited about the opportunity to contribute to meaningful projects and grow as a computer scientist. Feel free to explore my website to learn more about my journey and the projects I've worked on.
+                Thank you for visiting my website!
+
+                </p> 
+                <br/>
+                <p className ='text-left font-Roboto lg:pr-32'>
+                Thank you for visiting my website!
+
+                </p> 
             </div>
 
             <div class=" lg:col-span-1 flex justify-center">
