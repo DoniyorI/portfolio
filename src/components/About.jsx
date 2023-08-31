@@ -2,6 +2,7 @@ import React from 'react'
 import photo from '../assets/slide_show/Photo_8.jpg'
 import { BsFacebook,BsGithub, BsLinkedin } from 'react-icons/bs';
 import { Button } from "@material-tailwind/react";
+import PDF from '../assets/Doniyor_s_Resume.pdf'
 
 
 
@@ -20,7 +21,7 @@ const About = () => {
             <h1 className='text-left font-Roboto font-extrabold text-3xl pt-1'>Doniyor Ismatilloev</h1>
                 <p className='text-left font-Roboto font-light text-sm'>University At Buffalo ‘ 24, BS Computer Science
                 </p>
-                
+                <p className='text-left font-Roboto font-light text-sm'> GPA: 3.76, Honors: Dean's List, Pride of New York Scholarship</p>
                 <br/>
                
                 <p className ='text-left font-Roboto lg:pr-32'>
@@ -76,7 +77,7 @@ const About = () => {
             </Button>
             <Button className=' bg-black-pearl-500 hover:bg-black-pearl-700 py-2 px-3 md:px-6 mx-1 md:mx-3 button shadow-lg text-white rounded-none'>
                 <div className='text-white font-semibold text-lg lg:text-xl'>
-                    <a href = "https://publuu.com/flip-book/149121/373169">
+                    <a href = {PDF}>
                         Resume
                     </a>
                 </div>

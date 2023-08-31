@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
+import {Link} from 'react-scroll'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import logo from '../assets/Logo/LogoV2.png'
+import PDF from '../assets/Doniyor_s_Resume.pdf'
 import './Header.css'
 
 export default function Header() {
@@ -13,9 +15,9 @@ export default function Header() {
   return (
     <div className='header'>
             <nav className= "navbar font-Roboto">
-                <a href='#' className='logo'>
+                <Link to="" spy={true} smooth={true} offset={50} duration={500} className='logo'>
                     <img src={logo} alt='logo'className=' h-16 w-16 ' />
-                </a>
+                </Link>
                 <div className='hamburger' onClick={handleClick}>
                     {click ? (<FaTimes size={30} style={{ color: '#ffffff' }} />)
                         : (<FaBars size={30} style={{ color: '#ffffff' }} />)}
@@ -23,22 +25,22 @@ export default function Header() {
                 </div>
                 <ul className={click ? "nav-menu active" : "nav-menu"}>
                     <li className='nav-item'>
-                        <a href='#About' onClick={closeMenu}>About</a>
+                        <Link to="#About" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>About</Link>
                     </li>
                     <li className='nav-item'>
-                        <a href='#Skills' onClick={closeMenu}>Skill</a>
+                        <Link to="#Skills" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>Skill</Link>
                     </li>
                     <li className='nav-item'>
-                        <a href='#Project' onClick={closeMenu}>Projects</a>
+                    <Link to="Projects"spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>Projects</Link>
                     </li>
                     <li className='nav-item'>
-                        <a href='#Experience' onClick={closeMenu}>Experience</a>
+                        <Link to="Experience"spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>Experience</Link>
                     </li>
                     <li className='nav-item'>
-                        <a href='#Contact' onClick={closeMenu}>Contact</a>
+                        <Link to="Contact"spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>Contact</Link>
                     </li>
                     <li className='nav-item '>
-                        <a href="https://publuu.com/flip-book/149121/373169" class="hover:underline">Resume</a>
+                        <a href={PDF} class="hover:underline">Resume</a>
                     </li>
                 </ul>
             </nav>

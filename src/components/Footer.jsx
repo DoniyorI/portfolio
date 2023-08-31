@@ -1,6 +1,9 @@
 import React from 'react'
 import Logo from '../assets/Logo/LogoV3.png'
 import pdf from '../assets/skills/PDF.png'
+import PDF from '../assets/Doniyor_s_Resume.pdf'
+import {Link} from 'react-scroll'
+
 
 const Footer = () => {
   return (
@@ -13,14 +16,15 @@ const Footer = () => {
         </a>
         <ul class="flex flex-wrap items-center mb-2 text-sm text-gray-500 sm:mb-0 dark:text-gray-400">
             <li>
-                <a href="#About" class="mr-4 hover:underline md:mr-6 ">About</a>
+                <Link to="About" spy={true} smooth={true} offset={50} duration={500}class="my-3 mr-4 hover:underline ">About</Link>
             </li>
+
             <li >
-                <a href="#Contact" class="mr-4 hover:underline md:mr-6 ">Contact</a>
+                <Link to="Contact" spy={true} smooth={true} offset={50} duration={500} class="my-3 mr-4 hover:underline  ">Contact</Link>
             </li>
             <li className='inline-flex'>
                 <img src={pdf} width={17} className="  pr-0.5"/>
-                <a href="https://publuu.com/flip-book/149121/373169" class="hover:underline">Resume</a>
+                <a href={PDF} class="hover:underline">Resume</a>
             </li>
         </ul>
     </div>

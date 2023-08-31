@@ -17,23 +17,40 @@ const Experience = () => {
         A short summary of my work experience..
       </p>
       <VerticalTimeline>
+      <VerticalTimelineElement
+          className="vertical-timeline-element--work lg:text-white"
+          contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+          date="July 2022 - Present"
+          iconStyle={{ background: "rgb(245,1,87)", color: "#ff" }}
+          icon = {<MdWork/>}
+        >
+          <h3 className="vertical-timeline-element-title ">Software Developer @Resilience, Inc. - Social Emotional Learning Programs</h3>
+          <h4 className="vertical-timeline-element-subtitle">Remote</h4>
+          <p>
+          • Utilized React Native framework to build and enhance the SELENA app, ensuring cross-platform compatibility and optimal user experience on both iOS and Android platforms<br></br>
+          • Collaborated closely with UI/UX designers to implement intuitive and visually appealing interfaces align with the app’s Social Emotional Learning (SEL) objectives, resulting in a user-friendly and engaging design<br></br>
+          • Demonstrated strong problem-solving skills, finding innovative solutions to technical challenges and continuously seeking opportunities to optimize app performance and user satisfaction<br></br>
+          • Enhanced app functionality by integrating external APIs and analytics tools, leveraging user engagement data for informed decisions<br></br>
+          </p>
+        </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work lg:text-white"
           contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-          date="2022 - Present"
+          date="January 2022 - Present"
           iconStyle={{ background: "rgb(245,1,87)", color: "#ff" }}
           icon = {<MdSchool/>}
         >
           <h3 className="vertical-timeline-element-title ">Undergraduate Teaching Assistant @University at Buffalo</h3>
           <h4 className="vertical-timeline-element-subtitle">Buffalo, NY</h4>
           <p>
-            Bachelor of Science in Computer Science<br></br>
-            GPA: 3.76, Honors: Dean's List, Pride of New York Scholarship<br></br>
-            • Facilitated and co-instructed engaging recitation classes for undergraduates.<br></br>
-            • Conducted comprehensive grading of assignments and exams to provide constructive feedback to students.<br></br>
-            • Demonstrated exceptional communication skills by answering students' questions effectively and efficiently.<br></br>
-            • Hosted frequent office hours to provide academic support and guidance to students.<br></br>
+          • Co-instructed engaging recitation classes, fostering active student participation and comprehension<br></br>
+          • Delivered comprehensive grading of assignments and exams, providing constructive feedback to over 100 students<br></br>
+          • Demonstrated exceptional communication skills while answering students’ questions during weekly office hours and
+            recitation periods<br></br>
+          • Hosted frequent office hours to provide one-on-one academic support, assisting students with course material,
+            assignments, and conceptual understanding<br></br>
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
