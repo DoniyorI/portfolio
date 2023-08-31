@@ -25,10 +25,10 @@ export default function Header() {
                 </div>
                 <ul className={click ? "nav-menu active" : "nav-menu"}>
                     <li className='nav-item'>
-                        <Link to="#About" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>About</Link>
+                        <Link to="About" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>About</Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to="#Skills" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>Skill</Link>
+                        <Link to="Skills" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>Skill</Link>
                     </li>
                     <li className='nav-item'>
                     <Link to="Projects"spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>Projects</Link>
