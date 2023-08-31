@@ -15,7 +15,7 @@ export default function Header() {
   return (
     <div className='header'>
             <nav className= "navbar font-Roboto">
-                <Link to="" spy={true} smooth={true} offset={50} duration={500} className='logo'>
+                <Link to="#" spy={true} smooth={true} offset={0} duration={500} className='logo'>
                     <img src={logo} alt='logo'className=' h-16 w-16 ' />
                 </Link>
                 <div className='hamburger' onClick={handleClick}>
@@ -25,19 +25,19 @@ export default function Header() {
                 </div>
                 <ul className={click ? "nav-menu active" : "nav-menu"}>
                     <li className='nav-item'>
-                        <Link to="About" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>About</Link>
+                        <Link to="About" spy={true} smooth={true} offset={0} duration={500} onClick={closeMenu}>About</Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to="Skills" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>Skill</Link>
+                        <Link to="Skills" spy={true} smooth={true} offset={0} duration={500} onClick={closeMenu}>Skill</Link>
                     </li>
                     <li className='nav-item'>
-                    <Link to="Projects"spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>Projects</Link>
+                    <Link to="Project"spy={true} smooth={true} offset={0} duration={500} onClick={closeMenu}>Projects</Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to="Experience"spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>Experience</Link>
+                        <Link to="Experience"spy={true} smooth={true} offset={0} duration={500} onClick={closeMenu}>Experience</Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to="Contact"spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>Contact</Link>
+                        <Link to="Contact"spy={true} smooth={true} offset={0} duration={500} onClick={closeMenu}>Contact</Link>
                     </li>
                     <li className='nav-item '>
                         <a href={PDF} class="hover:underline">Resume</a>

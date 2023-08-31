@@ -16,11 +16,11 @@ const Footer = () => {
         </a>
         <ul class="flex flex-wrap items-center mb-2 text-sm text-gray-500 sm:mb-0 dark:text-gray-400">
             <li>
-                <Link to="About" spy={true} smooth={true} offset={50} duration={500}class="my-3 mr-4 hover:underline ">About</Link>
+                <Link to="About" spy={true} smooth={true} offset={0} duration={500}class="my-3 mr-4 hover:underline ">About</Link>
             </li>
 
             <li >
-                <Link to="Contact" spy={true} smooth={true} offset={50} duration={500} class="my-3 mr-4 hover:underline  ">Contact</Link>
+                <Link to="Contact" spy={true} smooth={true} offset={0} duration={500} class="my-3 mr-4 hover:underline  ">Contact</Link>
             </li>
             <li className='inline-flex'>
                 <img src={pdf} width={17} className="  pr-0.5"/>
